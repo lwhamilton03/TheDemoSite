@@ -85,6 +85,7 @@ public class BasicDemo {
 		
 		WebElement status = driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/big/blockquote/blockquote/font/center/b"));
 		assertEquals("The login and password are invalid", "**No login attempted**", status.getText());
+		assertEquals("The login and password are invalid", "**Failed Login**", status.getText());
 	}
 	
 	@After
