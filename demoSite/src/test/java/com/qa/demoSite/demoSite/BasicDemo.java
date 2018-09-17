@@ -1,3 +1,7 @@
+
+//URGENT NEED TO CREATE A TEST SUITE SUCH THAT YOU ARE ABLE TO RUN THE 
+//TESTS IN THE ORDER THAT YOU WANT THEM TO RUN IN
+
 package com.qa.demoSite.demoSite;
 
 import static org.junit.Assert.*;
